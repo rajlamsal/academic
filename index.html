@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Ritu Raj Lamsal - Personal Website</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0073e6, #0047ab);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header .profile-photo {
+            width: 220px;
+            height: 210px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        header .profile-photo:hover {
+            transform: scale(1.1);
+        }
+
+        header h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+            font-weight: 600;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 10px 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .section {
+            padding: 40px 20px;
+            background: white;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #0073e6;
+            margin-bottom: 20px;
+            font-size: 1.7em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #0073e6;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0047ab;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #333, #222);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .section {
+            animation: fadeIn 0.8s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="rlamsal.jpg" alt="Dr. Ritu Raj Lamsal" class="profile-photo">
+                <h1>Dr. Ritu Raj Lamsal</h1>
+                <p>PhD Eng., FIE | Academic & Professional</p>
+<p><strong>ORCID:</strong> <a href="https://orcid.org/0000-0002-3751-2785">0000-0002-3751-2785</a></p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#phd-thesis">PhD Thesis</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#conferences">Conferences</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="biography" class="section">
+        <div class="container">
+            <h2>Biography</h2>
+            <p>Dr. Ritu Raj Lamsal is an accomplished academic and professional with a distinguished educational and research background. He earned his Bachelor of Engineering in Electronics and Communication Engineering from the Institution of Engineers, India, in 1999. In 2006, he completed his Master of Technology in VLSI Design at Bharat University, Chennai, where he graduated as the top rank holder. Dr. Lamsal pursued his doctoral studies at the University of Malaga, Spain, culminating in a PhD with an outstanding thesis centered on IoT-based agricultural innovations.</p>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li>Founder and CEO, Medhayantra, Kathmandu, Nepal (2023--Present)</li>
+                <li>Professor, Little Angels College, Kathmandu, Nepal (2022--Present)</li>
+                <li>Adjunct faculty Kings College, (Westcliff University, USA) (2023-Present)</li>
+                <li>Assistant Research Director, Deerwalk Institute of Technology, Nepal (2022--2023)</li>
+                <li>Head of the Department (Electronics), Deerwalk Institute of Technology, Nepal (2016--2022)</li>
+                <li>Associate Professor, VSB Engineering College, Anna University, India (2007--2010)</li>
+                <li>Associate Professor, BITIT, JNTU, India (2010--2013)</li>
+                <li>Chief Maintenance Engineer, Channel Nepal Television, Nepal (2001--2004)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>PhD in Telecommunication Engineering, University of Malaga, Spain (2024)</li>
+                <li>Master of Technology in VLSI Design, Bharath University, India (2006)</li>
+                <li>Bachelor of Engineering in Electronics and Communication, Institution of Engineers, India (1999)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="phd-thesis" class="section">
+        <div class="container">
+            <h2>PhD Thesis</h2>
+            <p><strong>Title:</strong> “IoT-Based Agricultural Innovations: Cost-effective platforms for smallholder farmers in Nepal and lower- and middle-income countries”</p>
+            <p><strong>Supervisors:</strong> Prof. Dr. Pablo Otero Roth, Prof Dr. Francisco Coslado Aristizábal</p>
+            <p><strong>University:</strong> University of Málaga, Malaga, Spain</p>
+            <p><strong>Link:</strong> <a href="https://www.educacion.gob.es/teseo/imprimirFicheroTesis.do?idFichero=KAfTCyDyR08%3D" target="_blank">View Thesis</a></p>
+        </div>
+    </section>
+
+    <section id="publications" class="section">
+        <div class="container">
+            <h2>Journal Publications</h2>
+            <ul>
+                <li>Implementing Internet of Things for Real-Time Monitoring and Regulation of Off-Season Grafting and Post-Harvest Storage in Citrus Cultivation: A Case Study from the Hilly Regions of Nepal <em>AgriEngineering</em> 2024-07-08 | DOI: <a href="https://doi.org/10.3390/agriengineering6030122">10.3390/agriengineering6030122</a></li>
+                <li>Navigating Global Challenges: The Crucial Role of Semiconductors in Advancing Globalization <em>Journal of The Institution of Engineers (India): Series B</em> 2023-11-01 | DOI: <a href="https://doi.org/10.1007/s40031-023-00938-4">10.1007/s40031-023-00938-4</a></li>
+                <li>Design and Implementation of Internet of Things (IoT) Platform Targeted for Smallholder Farmers: From Nepal Perspective <em>Agriculture</em> 2023-09 | DOI: <a href="https://doi.org/10.3390/agriculture13101900">10.3390/agriculture13101900</a></li>
+                <li>Monitoring and Regulating Climatic Condition of Polyhouse for Successful Off-season Grafting of Citrus Fruits Using Internet of Things Platform <em>Int. J. Agric. Environ. Biotechnology</em> 2022-07 | Vol. 15, pp. 417-422</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="conferences" class="section">
+        <div class="container">
+            <h2>International Conferences</h2>
+            <ul>
+                <li><strong>Invited Speaker:</strong> "AI and IoT Integration in Engineering: Use Cases, Challenges, and Opportunities in Nepal" at International Conference on AI and Engineering (ICAIE 2025), Kathmandu, Nepal, held on 19th Jan 2025.</li>
+                <li><strong>Invited Speaker:</strong> "Deployment of Internet of Things for Citrus Plant Grafting and Real-Time Internal Microclimate Regulation of the Storage House" at Asian Citrus Congress-2023, Nagpur, India, held on 28th - 30th October 2023.</li>
+                <li><strong>Invited Speaker:</strong> "Monitoring and Regulating Climatic Condition of Polyhouse for Successful Off-season Grafting of Citrus Fruits Using IoT Platform" at Advances in Agriculture and Food System Towards Sustainable Development Goals (AAFS2022), Bangalore, India, held on 22nd - 24th August 2022.</li>
+                <li>"Real-Time Internal Microclimate Monitoring and Automation using IoT in Polyhouse for Growing Crops" presented at IT4D 2021, Kathmandu, Nepal, held on 25th - 26th November 2021.</li>
+                <li>"Need and Implementation of Multi-Hazard Disaster Early Warning System in Nepal using Internet of Things" presented at International Conference on Health Engineering in Disaster, held on 1st - 3rd May 2019 at Pokhara University, Nepal.</li>
+                <li>"Potential Use and Scope of IoT in Agriculture and Farm Monitoring" presented at IT4D 2018, Kathmandu, Nepal, held on 3rd - 5th August 2018.</li>
+                <li>"Exploring ICT to Empower Persons with Disabilities in Nepal" presented at Fourth International Conference IT4D 2017, held on 29th - 31st July 2017, Kathmandu, Nepal.</li>
+                <li>Participated in International Conference on ICLASER 2012, Conducted by MS Ramaiah Institute of Technology (MSRIT), Bangalore, India.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2>Honors and Achievements</h2>
+            <ul>
+                <li>First Rank Holder in M.Tech (VLSI Design), Bharath University, Chennai, India (2006)</li>
+                <li>Outstanding grade in PhD (Sobresaliente Cum Laude mention)</li>
+                <li>Fellow, Institution of Engineers (India) (2017)</li>
+                <li>Registered Engineer, Nepal Engineering Council</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> lamsal.raj@gmail.com</p>
+            <p><strong>Phone:</strong> +977-XXXXXXX197</p>
+            <p><strong>ORCID:</strong> <a href="https://orcid.org/0000-0002-3751-2785">0000-0002-3751-2785</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dr. Ritu Raj Lamsal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
